@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "questionText": "Are you looking for a dessert?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isDessert",
+    "weight": 10
+  },
+  {
+    "id": 2,
+    "questionText": "Do you want something vegetarian?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isVegetarian",
+    "weight": 9
+  },
+  {
+    "id": 3,
+    "questionText": "Do you want something spicy?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isSpicy",
+    "weight": 8
+  },
+  {
+    "id": 4,
+    "questionText": "Do you want something quick to make (under 30 minutes)?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isQuick",
+    "weight": 8
+  },
+  {
+    "id": 5,
+    "questionText": "Are you in the mood for Italian food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isItalian",
+    "weight": 7
+  },
+  {
+    "id": 6,
+    "questionText": "Do you want something with meat?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasMeat",
+    "weight": 7
+  },
+  {
+    "id": 7,
+    "questionText": "Are you looking for a soup or stew?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isSoup",
+    "weight": 6
+  },
+  {
+    "id": 8,
+    "questionText": "Do you want something with pasta or noodles?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasPasta",
+    "weight": 7
+  },
+  {
+    "id": 9,
+    "questionText": "Are you in the mood for Asian food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isAsian",
+    "weight": 7
+  },
+  {
+    "id": 10,
+    "questionText": "Do you want something with chicken?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasChicken",
+    "weight": 6
+  },
+  {
+    "id": 11,
+    "questionText": "Are you looking for Mexican food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isMexican",
+    "weight": 6
+  },
+  {
+    "id": 12,
+    "questionText": "Do you want something with beef?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasBeef",
+    "weight": 6
+  },
+  {
+    "id": 13,
+    "questionText": "Are you in the mood for a salad?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isSalad",
+    "weight": 6
+  },
+  {
+    "id": 14,
+    "questionText": "Do you want something with cheese?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasCheese",
+    "weight": 5
+  },
+  {
+    "id": 15,
+    "questionText": "Are you looking for comfort food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isComfortFood",
+    "weight": 5
+  },
+  {
+    "id": 16,
+    "questionText": "Do you want something with rice?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasRice",
+    "weight": 5
+  },
+  {
+    "id": 17,
+    "questionText": "Are you in the mood for French food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isFrench",
+    "weight": 5
+  },
+  {
+    "id": 18,
+    "questionText": "Do you want something grilled?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isGrilled",
+    "weight": 4
+  },
+  {
+    "id": 19,
+    "questionText": "Are you looking for a sandwich or burger?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isSandwich",
+    "weight": 6
+  },
+  {
+    "id": 20,
+    "questionText": "Do you want something with a sauce?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasSauce",
+    "weight": 4
+  },
+  {
+    "id": 21,
+    "questionText": "Are you in the mood for Indian food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isIndian",
+    "weight": 6
+  },
+  {
+    "id": 22,
+    "questionText": "Do you want something fried?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isFried",
+    "weight": 4
+  },
+  {
+    "id": 23,
+    "questionText": "Are you looking for breakfast food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isBreakfast",
+    "weight": 7
+  },
+  {
+    "id": 24,
+    "questionText": "Do you want something with eggs?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasEggs",
+    "weight": 5
+  },
+  {
+    "id": 25,
+    "questionText": "Are you in the mood for something light and healthy?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isHealthy",
+    "weight": 5
+  },
+  {
+    "id": 26,
+    "questionText": "Do you want something with potatoes?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasPotatoes",
+    "weight": 4
+  },
+  {
+    "id": 27,
+    "questionText": "Are you looking for Middle Eastern food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isMiddleEastern",
+    "weight": 5
+  },
+  {
+    "id": 28,
+    "questionText": "Do you want something with tomatoes?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasTomatoes",
+    "weight": 3
+  },
+  {
+    "id": 29,
+    "questionText": "Are you in the mood for something baked?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isBaked",
+    "weight": 4
+  },
+  {
+    "id": 30,
+    "questionText": "Do you want something that takes time to make (over 45 minutes)?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isComplex",
+    "weight": 3
+  },
+  {
+    "id": 31,
+    "questionText": "Are you in the mood for seafood or fish?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasSeafood",
+    "weight": 6
+  },
+  {
+    "id": 32,
+    "questionText": "Do you want something sweet?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isSweet",
+    "weight": 6
+  },
+  {
+    "id": 33,
+    "questionText": "Are you looking for Japanese food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isJapanese",
+    "weight": 6
+  },
+  {
+    "id": 34,
+    "questionText": "Do you want something with vegetables?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasVegetables",
+    "weight": 4
+  },
+  {
+    "id": 35,
+    "questionText": "Are you in the mood for American food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isAmerican",
+    "weight": 5
+  },
+  {
+    "id": 36,
+    "questionText": "Do you want something that's traditionally eaten hot?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isHot",
+    "weight": 4
+  },
+  {
+    "id": 37,
+    "questionText": "Are you looking for finger food (eaten with hands)?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isFingerFood",
+    "weight": 5
+  },
+  {
+    "id": 38,
+    "questionText": "Do you want something with bread or toast?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasBread",
+    "weight": 4
+  },
+  {
+    "id": 39,
+    "questionText": "Are you looking for something creamy?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isCreamy",
+    "weight": 4
+  },
+  {
+    "id": 40,
+    "questionText": "Do you want something with onions or garlic?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasOnionGarlic",
+    "weight": 3
+  },
+  {
+    "id": 41,
+    "questionText": "Are you in the mood for Thai food?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isThai",
+    "weight": 6
+  },
+  {
+    "id": 42,
+    "questionText": "Do you want something with coconut?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasCoconut",
+    "weight": 3
+  },
+  {
+    "id": 43,
+    "questionText": "Are you looking for something with herbs or spices?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasHerbs",
+    "weight": 3
+  },
+  {
+    "id": 44,
+    "questionText": "Do you want something with mushrooms?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasMushrooms",
+    "weight": 3
+  },
+  {
+    "id": 45,
+    "questionText": "Are you looking for something with beans or legumes?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasBeans",
+    "weight": 3
+  },
+  {
+    "id": 46,
+    "questionText": "Do you want something with pork?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasPork",
+    "weight": 5
+  },
+  {
+    "id": 47,
+    "questionText": "Are you in the mood for something tangy or acidic?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isTangy",
+    "weight": 4
+  },
+  {
+    "id": 48,
+    "questionText": "Do you want something that's typically served cold?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isServedCold",
+    "weight": 4
+  },
+  {
+    "id": 49,
+    "questionText": "Are you looking for something with nuts or seeds?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasNuts",
+    "weight": 3
+  },
+  {
+    "id": 50,
+    "questionText": "Do you want something that requires chopsticks?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "usesChopsticks",
+    "weight": 4
+  },
+  {
+    "id": 51,
+    "questionText": "Are you in the mood for something stuffed or filled?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isStuffed",
+    "weight": 4
+  },
+  {
+    "id": 52,
+    "questionText": "Do you want something with a crust or crispy exterior?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasCrust",
+    "weight": 3
+  },
+  {
+    "id": 53,
+    "questionText": "Are you looking for something with lamb or goat?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasLamb",
+    "weight": 4
+  },
+  {
+    "id": 54,
+    "questionText": "Do you want something that's traditionally fermented?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isFermented",
+    "weight": 3
+  },
+  {
+    "id": 55,
+    "questionText": "Are you in the mood for something smoky or barbecued?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isSmoky",
+    "weight": 4
+  },
+  {
+    "id": 56,
+    "questionText": "Do you want something crispy or crunchy?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isCrispy",
+    "weight": 4
+  },
+  {
+    "id": 57,
+    "questionText": "Are you looking for something sweet?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isSweet",
+    "weight": 6
+  },
+  {
+    "id": 58,
+    "questionText": "Do you want something with lots of vegetables?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasLotsOfVegetables",
+    "weight": 4
+  },
+  {
+    "id": 59,
+    "questionText": "Are you looking for something with strong flavors?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasStrongFlavors",
+    "weight": 4
+  },
+  {
+    "id": 60,
+    "questionText": "Do you want something that's traditionally served cold?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isServedCold",
+    "weight": 4
+  },
+  {
+    "id": 61,
+    "questionText": "Are you in the mood for something filling and hearty?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isHearty",
+    "weight": 5
+  },
+  {
+    "id": 62,
+    "questionText": "Do you want something with herbs and spices?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasHerbsSpices",
+    "weight": 3
+  },
+  {
+    "id": 63,
+    "questionText": "Are you looking for something with a creamy texture?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isCreamy",
+    "weight": 4
+  },
+  {
+    "id": 64,
+    "questionText": "Do you want something that's baked or roasted?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "isBakedRoasted",
+    "weight": 4
+  },
+  {
+    "id": 65,
+    "questionText": "Are you in the mood for something with citrus flavors?",
+    "questionType": "BINARY",
+    "choices": "Yes,No",
+    "attribute": "hasCitrus",
+    "weight": 3
+  }
+]

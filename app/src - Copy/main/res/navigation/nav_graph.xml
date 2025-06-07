@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.foodakinator.ui.welcome.WelcomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcome_to_question"
+            app:destination="@id/questionFragment" />
+    </fragment>
+<action
+    android:id="@+id/action_results_to_welcome"
+    app:destination="@id/welcomeFragment"
+    app:popUpTo="@id/welcomeFragment"
+    app:popUpToInclusive="true" />
+
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.example.foodakinator.ui.question.QuestionFragment"
+        android:label="Questions"
+        tools:layout="@layout/fragment_question">
+        <action
+            android:id="@+id/action_question_to_results"
+            app:destination="@id/resultsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.foodakinator.ui.results.ResultsFragment"
+        android:label="Results"
+        tools:layout="@layout/fragment_results">
+        <action
+            android:id="@+id/action_results_to_details"
+            app:destination="@id/dishDetailsFragment" />
+        <action
+            android:id="@+id/action_results_to_question"
+            app:destination="@id/questionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dishDetailsFragment"
+        android:name="com.example.foodakinator.ui.details.DishDetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_dish_details">
+        <argument
+            android:name="dishId"
+            app:argType="integer" />
+    </fragment>
+</navigation>
